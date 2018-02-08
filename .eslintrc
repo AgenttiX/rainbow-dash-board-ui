@@ -1,0 +1,28 @@
+{
+    "extends": "eslint:recommended",
+    "env": {
+        "browser": true,
+        "commonjs": true,
+        "node": true,
+        "es6": true
+    },
+    "plugins": [
+        "inferno"
+    ],
+    "parserOptions": {
+        "ecmaVersion": 6,
+        "sourceType": "module",
+        "ecmaFeatures": {
+            "jsx": true
+        }
+    },
+    "rules": {
+        "no-console": "off",
+        "curly": ["error", "multi-line"],
+        "comma-dangle": ["error", "always-multiline"],
+        "semi": ["error", "always"],
+        "max-len": ["error", { "code": 80 }],
+        "inferno/jsx-uses-inferno": "error",
+        "inferno/jsx-uses-vars": "error"
+    }
+}
