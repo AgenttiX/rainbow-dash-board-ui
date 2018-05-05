@@ -3,14 +3,14 @@
   "version": "0.1.0",
   "private": true,
   "dependencies": {
-    "inferno": "^3.10.1",
-    "inferno-component": "^3.10.1",
-    "inferno-scripts": "5.0.0",
-    "lodash": "^4.17.4"
+    "inferno": "^5.0.4",
+    "inferno-component": "^5.0.4",
+    "inferno-scripts": "6.3.0",
+    "lodash": "^4.17.10"
   },
   "devDependencies": {
-    "eslint": "^4.16.0",
-    "eslint-plugin-inferno": "^7.4.0"
+    "eslint": "^4.19.1",
+    "eslint-plugin-inferno": "^7.8.0"
   },
   "scripts": {
     "start": "inferno-scripts start",

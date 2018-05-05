@@ -7,6 +7,7 @@
 ## Requirements
 
 * [Node.js](https://nodejs.org/en/) 8 LTS or newer
+* [npm](https://www.npmjs.com/) 6.0.0 or newer
 
 ## Installation
 
